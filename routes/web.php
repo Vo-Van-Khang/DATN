@@ -6,5 +6,5 @@ use Illuminate\Support\Facades\Route;
 //     return view('admins.category');
 // });
 Route::get('/', function () {
-    return view('admins.category.add');
+    return view('admins.movie.add');
 });

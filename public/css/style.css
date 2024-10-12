@@ -25922,7 +25922,7 @@ dl li {
 }
 /* Layouts */
 .navbar.fixed-top + .page-body-wrapper {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 @media (min-width: 992px) {
@@ -26288,3 +26288,20 @@ dl li {
   flex-grow: 1;
 }
 /*# sourceMappingURL=maps/style.css.map */
+.td-action{
+  display: flex;
+  gap: 5px;
+}
+.action{
+  display: block;
+  width: fit-content;
+  padding: 10px;
+  border: 1px solid #3e4b5b;
+  border-radius: 2px;
+  color: #3e4b5b;
+  background-color: transparent;
+}
+.action:hover{
+  color: #3e4b5b;
+  filter: brightness(-10%);
+}
