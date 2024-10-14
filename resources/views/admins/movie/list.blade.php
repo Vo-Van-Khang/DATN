@@ -62,9 +62,51 @@
                     </button>
                 </td>
             </tr>
+            <tr>
+                <td> Tiêu đề </td>
+                <td> Mô tả</td>
+                <td class="py-1">
+                  <img src="../../assets/images/faces-clipart/pic-1.png" alt="image" />
+                </td>
+                <td> Năm sx </td>
+                <td> Nước sx </td>
+                <td> 923 </td>
+                <td> <label class="badge badge-success"> Hiển thị </label> </td>
+                <td> 4 </td>
+                <td> 12/4/2024 </td>
+                <td class="td-action"> 
+                    <a class="action" href="">
+                        <i class="fa-solid fa-pencil"></i>
+                    </a>
+                    <button class="action">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td> Tiêu đề </td>
+                <td> Mô tả</td>
+                <td class="py-1">
+                  <img src="../../assets/images/faces-clipart/pic-1.png" alt="image" />
+                </td>
+                <td> Năm sx </td>
+                <td> Nước sx </td>
+                <td> 923 </td>
+                <td> <label class="badge badge-danger"> Hiển thị </label> </td>
+                <td> 4 </td>
+                <td> 12/4/2024 </td>
+                <td class="td-action"> 
+                    <a class="action" href="">
+                        <i class="fa-solid fa-pencil"></i>
+                    </a>
+                    <button class="action">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </td>
+            </tr>
           </tbody>
         </table>
-        <button class="btn btn-success mt-3 p-2 fs-6">Thêm mới</button>
+        <a href="/admin/movie/add" class="btn btn-success mt-3 p-2 fs-6">Thêm mới</a>
       </div>
     </div>
   </div>
