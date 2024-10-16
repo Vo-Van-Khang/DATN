@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('admins.category.add');
+    return view('clients.detail');
 });
 Route::get('/admin/user/list', function () {
     return view('admins.user.list');
@@ -16,4 +16,10 @@ Route::get('/admin/category/list', function () {
 });
 Route::get('/admin/category/add', function () {
     return view('admins.category.add');
+});
+Route::get('/admin/slides/list', function () {
+    return view('admins.slides.list');
+});
+Route::get('/admin/slides/add', function () {
+    return view('admins.slides.add');
 });

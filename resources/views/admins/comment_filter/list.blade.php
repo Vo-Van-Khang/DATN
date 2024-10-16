@@ -5,7 +5,7 @@
 				<!-- tiêu đề chính -->
 				<div class="col-12">
 					<div class="main__title">
-						<h2>Người dùng</h2>
+						<h2>Lọc bình luận</h2>
 
 					</div>
 				</div>
@@ -16,12 +16,9 @@
 						<table class="main__table">
 							<thead>
 								<tr>
-									<th>TÊN</th>
-									<th>EMAIL</th>
-									<th>HÌNH ẢNH</th>
-									<th>TÌNH TRANG</th>
-									<th>PREMIUM</th>
-									<th>VAI TRÒ</th>
+									<th>ID</th>
+									<th>NỘI DUNG</th>
+									<th>NGÀY TẠO</th>
 									<th>HÀNH ĐỘNG</th>
 								</tr>
 							</thead>
@@ -29,27 +26,14 @@
 							<tbody>
 								<tr>
 									<td>
-										<div class="main__table-text">Khang</div>
+										<div class="main__table-text">3</div>
 									</td>
-
 									<td>
-										<div class="main__table-text"><a href="#">cc@gmai.com</a></div>
-									</td>
-
-									<td>
-										<div class="main__table-text"><img src="{{asset("images/anh.png")}}" alt=""></div>
+										<div class="main__table-text">Nội dung</div>
 									</td>
 									
 									<td>
-										<div class="main__table-text main__table-text--green">Hoạt động</div>
-									</td>
-
-									<td>
-										<div class="main__table-text main__table-text--green">Có</div>
-									</td>
-
-									<td>
-										<div class="main__table-text">Admin</div>
+										<div class="main__table-text">3546753</div>
 									</td>
 
 									<td>

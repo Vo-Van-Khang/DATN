@@ -671,6 +671,10 @@ body::-webkit-scrollbar-thumb {
 .main__table-text a:hover {
   color: #2f80ed;
 }
+.main__table-text img{
+  height: 30px;
+  width: auto;
+}
 .main__table-text svg {
   margin-right: 6px;
   fill: #2f80ed;
@@ -2040,16 +2044,22 @@ body::-webkit-scrollbar-thumb {
   background-color: #151f30;
   border: 1px solid transparent;
   border-radius: 5px;
-  height: 44px;
   position: relative;
   color: #fff;
   font-size: 14px;
   width: 100%;
-  padding: 0 20px;
+  padding: 8px 20px;
 }
 .sign__input:focus {
   background-color: #151f30;
   border-color: #2f80ed;
+}
+.sign__image{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 .sign__textarea {
   background-color: #151f30;
@@ -2242,6 +2252,7 @@ body::-webkit-scrollbar-thumb {
 .sign__wrap .row {
   margin-left: -10px;
   margin-right: -10px;
+  width: 100%;
 }
 .sign__wrap .col-12 {
   padding-left: 10px;
@@ -2604,4 +2615,16 @@ body::-webkit-scrollbar-thumb {
   background: #2f80ed !important;
   height: 4px !important;
   border-radius: 4px !important;
+}
+.sign__group__select{
+  display: flex;
+  flex-direction: column;
+}
+.sign__group__select .select__admin{
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #151f30;
+  color: #fff;
+  border: 0;
+  font-size: 14px;
 }
