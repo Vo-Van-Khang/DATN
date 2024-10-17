@@ -14,13 +14,13 @@
 	<link rel="stylesheet" href="{{asset('css/admin.css')}}">
 
 	<!-- Favicons -->
-	<link rel="icon" type="image/png" href="icon/favicon-32x32.png" sizes="32x32">
-	<link rel="apple-touch-icon" href="icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" href="{{asset('images/logo.png')}}" sizes="32x32">
+	<link rel="apple-touch-icon" href="{{asset('images/logo.png')}}">
 
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="author" content="Dmitry Volkov">
-	<title>FlixTV – Phim & Chương trình truyền hình, Mẫu HTML rạp chiếu phim trực tuyến</title>
+	<title>Đum Đúm – Phim & Chương trình truyền hình, Mẫu HTML rạp chiếu phim trực tuyến</title>
 
 </head>
 <body>

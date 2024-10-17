@@ -113,11 +113,11 @@
 
                                 <span class="sign__text"
                                     >Bạn chưa có tài khoản?
-                                    <a href="signup.html">Đăng ký!</a></span
+                                    <a href="{{route("signup")}}">Đăng ký!</a></span
                                 >
 
                                 <span class="sign__text"
-                                    ><a href="forgot.html"
+                                    ><a href="{{route("forgot")}}"
                                         >Quên mật khẩu?</a
                                     ></span
                                 >

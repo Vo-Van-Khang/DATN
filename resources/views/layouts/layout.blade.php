@@ -21,16 +21,16 @@
         <link
             rel="icon"
             type="image/png"
-            href="icon/favicon-32x32.png"
+            href="{{asset("images/logo.png")}}"
             sizes="32x32"
         />
-        <link rel="apple-touch-icon" href="icon/favicon-32x32.png" />
+        <link rel="apple-touch-icon" href="{{asset("images/logo.png")}}" />
 
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <meta name="author" content="Dmitry Volkov" />
         <title>
-            FlixTV – Phim & Chương trình truyền hình, Rạp chiếu phim trực tuyến
+            Đum Đúm – Phim & Chương trình truyền hình, Rạp chiếu phim trực tuyến
         </title>
     </head>
 
@@ -47,7 +47,7 @@
                                 <span></span>
                             </button>
 
-                            <a href="index.html" class="header__logo">
+                            <a href="{{route("index")}}" class="header__logo">
                                 <img
                                     src="{{asset("images/logo.png")}}"
                                     alt="Movies & TV Shows, Online cinema HTML Template"
@@ -58,33 +58,9 @@
                                 <li class="header__nav-item">
                                     <a
                                         class="header__nav-link"
-                                        href="#"
-                                        role="button"
-                                        id="dropdownMenu2"
-                                        data-toggle="dropdown"
-                                        aria-haspopup="true"
-                                        aria-expanded="false"
-                                        >Trang chủ
-                                        <svg
-                                            width="4"
-                                            height="4"
-                                            viewBox="0 0 4 4"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                d="M1.93893 3.30334C1.08141 3.30334 0.384766 2.60669 0.384766 1.75047C0.384766 0.894254 1.08141 0.196308 1.93893 0.196308C2.79644 0.196308 3.49309 0.894254 3.49309 1.75047C3.49309 2.60669 2.79644 3.30334 1.93893 3.30334Z"
-                                            /></svg
-                                    ></a>
-
-                                    <ul
-                                        class="dropdown-menu header__nav-menu"
-                                        aria-labelledby="dropdownMenu2"
+                                        href="{{route("index")}}"
+                                        >Trang chủ</a
                                     >
-                                        <li>
-                                            <a href="index.html">Trang chủ</a>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li class="header__nav-item">
                                     <a
@@ -175,13 +151,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="header__nav-item">
-                                    <a
-                                        class="header__nav-link"
-                                        href="pricing.html"
-                                        >Kế hoạch giá</a
-                                    >
-                                </li>
+                               
                                 <li class="header__nav-item">
                                     <a
                                         class="header__nav-link header__nav-link--live"
@@ -380,7 +350,7 @@
                                     </svg>
                                 </button>
 
-                                <a href="signin.html" class="header__user">
+                                <a href="{{route("signin")}}" class="header__user">
                                     <span>Đăng nhập</span>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
