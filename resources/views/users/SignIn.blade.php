@@ -35,7 +35,7 @@
     </head>
     <body>
         <!-- sign in -->
-        <div class="sign section--full-bg" data-bg="img/bg.jpg">
+        <div class="sign section--full-bg" data-bg="{{asset('images/background.jpg')}}">
             <div class="container">
                 <div class="row">
                     <div class="col-12">

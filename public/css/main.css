@@ -3669,7 +3669,21 @@ body::-webkit-scrollbar-thumb {
     background-color: transparent;
     padding: 10px 15px 0 0;
 }
-
+.main__table .main__table-action{
+    padding: 5px 11px;
+    text-align: center;
+    font-size: 19px;
+    border: 1px solid #df4a32;
+    border-radius: 50%;
+}
+.main__table .main__table-action svg{
+    margin-right: 0;
+    width: 20px;
+    fill: #df4a32;
+}
+.main__table .main__table-action:hover{
+    background-color: #78291d;
+}
 .main__table-text {
     display: flex;
     flex-direction: row;

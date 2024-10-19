@@ -5,7 +5,7 @@
             <div class="home__carousel owl-carousel" id="flixtv-hero">
                 <div class="home__card">
                     <a href="details.html">
-                        <img src="img/home/1.jpg" alt="" />
+                        <img src="{{asset("images/home/1.jpg")}}" alt="" />
                     </a>
                     <div>
                         <h2>Money Plane</h2>
@@ -40,7 +40,7 @@
 
                 <div class="home__card">
                     <a href="details.html">
-                        <img src="img/home/2.jpg" alt="" />
+                        <img src="{{asset("images/home/2.jpg")}}" alt="" />
                     </a>
                     <div>
                         <h2>The Art of Political</h2>
@@ -75,7 +75,7 @@
 
                 <div class="home__card">
                     <a href="details.html">
-                        <img src="img/home/3.jpg" alt="" />
+                        <img src="{{asset("images/home/3.jpg")}}" alt="" />
                     </a>
                     <div>
                         <h2>Antebellum</h2>
@@ -110,7 +110,7 @@
 
                 <div class="home__card">
                     <a href="details.html">
-                        <img src="img/home/4.jpg" alt="" />
+                        <img src="{{asset("images/home/4.jpg")}}" alt="" />
                     </a>
                     <div>
                         <h2>Kids Next Door</h2>
@@ -145,7 +145,7 @@
 
                 <div class="home__card">
                     <a href="details.html">
-                        <img src="img/home/5.jpg" alt="" />
+                        <img src="{{asset("images/home/5.jpg")}}" alt="" />
                     </a>
                     <div>
                         <h2>The Empty Man</h2>
@@ -180,7 +180,7 @@
 
                 <div class="home__card">
                     <a href="details.html">
-                        <img src="img/home/6.jpg" alt="" />
+                        <img src="{{asset("images/home/6.jpg")}}" alt="" />
                     </a>
                     <div>
                         <h2>Jungleland</h2>
@@ -215,7 +215,7 @@
 
                 <div class="home__card">
                     <a href="details.html">
-                        <img src="img/home/7.jpg" alt="" />
+                        <img src="{{asset("images/home/7.jpg")}}" alt="" />
                     </a>
                     <div>
                         <h2>Bad Impulse</h2>
@@ -250,7 +250,7 @@
 
                 <div class="home__card">
                     <a href="details.html">
-                        <img src="img/home/8.jpg" alt="" />
+                        <img src="{{asset("images/home/8.jpg")}}" alt="" />
                     </a>
                     <div>
                         <h2>Tenet</h2>
@@ -401,8 +401,8 @@
                         <div class="row row--grid">
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/1.png" alt="" />
+                                    <a href="/detail" class="card__cover">
+                                        <img src="{{asset("images/card/1.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -463,7 +463,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/2.png" alt="" />
+                                        <img src="{{asset("images/card/2.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -522,7 +522,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/3.png" alt="" />
+                                        <img src="{{asset("images/card/3.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -583,7 +583,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/4.png" alt="" />
+                                        <img src="{{asset("images/card/4.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -642,7 +642,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/5.png" alt="" />
+                                        <img src="{{asset("images/card/5.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -703,7 +703,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/6.png" alt="" />
+                                        <img src="{{asset("images/card/6.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -764,7 +764,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/7.png" alt="" />
+                                        <img src="{{asset("images/card/7.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -825,7 +825,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/8.png" alt="" />
+                                        <img src="{{asset("images/card/8.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -884,7 +884,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/9.png" alt="" />
+                                        <img src="{{asset("images/card/9.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -943,7 +943,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/10.png" alt="" />
+                                        <img src="{{asset("images/card/10.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -1004,7 +1004,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/11.png" alt="" />
+                                        <img src="{{asset("images/card/11.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -1063,7 +1063,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/12.png" alt="" />
+                                        <img src="{{asset("images/card/12.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -1124,7 +1124,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/13.png" alt="" />
+                                        <img src="{{asset("images/card/13.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -1183,7 +1183,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/14.png" alt="" />
+                                        <img src="{{asset("images/card/14.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -1244,7 +1244,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/15.png" alt="" />
+                                        <img src="{{asset("images/card/15.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -1305,7 +1305,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/16.png" alt="" />
+                                        <img src="{{asset("images/card/16.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -1366,7 +1366,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/17.png" alt="" />
+                                        <img src="{{asset("images/card/17.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -1427,7 +1427,7 @@
                             <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                                 <div class="card">
                                     <a href="details.html" class="card__cover">
-                                        <img src="img/card/18.png" alt="" />
+                                        <img src="{{asset("images/card/18.png")}}" alt="" />
                                         <svg
                                             width="22"
                                             height="22"
@@ -1491,7 +1491,7 @@
                 <div class="row">
                     <div class="col-12">
                         <button class="catalog__more" type="button">
-                            Xem thêm.
+                            Xem thêm
                         </button>
                     </div>
                 </div>
@@ -1499,623 +1499,7 @@
         </div>
         <!-- end catalog -->
 
-        <!-- subscriptions -->
-        <section class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="section__title">Đăng ký</h2>
-                    </div>
-
-                    <div class="col-12">
-                        <div class="section__carousel-wrap">
-                            <div
-                                class="section__carousel owl-carousel"
-                                id="subscriptions"
-                            >
-                                <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/11.png" alt="" />
-                                        <svg
-                                            width="20"
-                                            height="16"
-                                            viewBox="0 0 20 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <button class="card__add" type="button">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <h3 class="card__title card__title--subs">
-                                        <a href="details.html"
-                                            >Chương trình thể thao.</a
-                                        >
-                                    </h3>
-                                    <ul class="card__list card__list--subs">
-                                        <li>Hơn 300 bộ phim.</li>
-                                    </ul>
-                                </div>
-
-                                <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/15.png" alt="" />
-                                        <svg
-                                            width="20"
-                                            height="16"
-                                            viewBox="0 0 20 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <button class="card__add" type="button">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <h3 class="card__title card__title--subs">
-                                        <a href="details.html"
-                                            >Phim khoa học viễn tưởng.</a
-                                        >
-                                    </h3>
-                                    <ul class="card__list card__list--subs">
-                                        <li>Hơn 200 bộ phim.</li>
-                                    </ul>
-                                </div>
-
-                                <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/3.png" alt="" />
-                                        <svg
-                                            width="20"
-                                            height="16"
-                                            viewBox="0 0 20 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <button class="card__add" type="button">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <h3 class="card__title card__title--subs">
-                                        <a href="details.html"
-                                            >Phim về không gian.</a
-                                        >
-                                    </h3>
-                                    <ul class="card__list card__list--subs">
-                                        <li>Hơn 100 bộ phim</li>
-                                    </ul>
-                                </div>
-
-                                <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/1.png" alt="" />
-                                        <svg
-                                            width="20"
-                                            height="16"
-                                            viewBox="0 0 20 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <button class="card__add" type="button">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <h3 class="card__title card__title--subs">
-                                        <a href="details.html">Phim lãng mạn</a>
-                                    </h3>
-                                    <ul class="card__list card__list--subs">
-                                        <li>Hơn 300 phim</li>
-                                    </ul>
-                                </div>
-
-                                <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/18.png" alt="" />
-                                        <svg
-                                            width="20"
-                                            height="16"
-                                            viewBox="0 0 20 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <button class="card__add" type="button">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <h3 class="card__title card__title--subs">
-                                        <a href="details.html"
-                                            >Phim về thời trung cổ</a
-                                        >
-                                    </h3>
-                                    <ul class="card__list card__list--subs">
-                                        <li>Hơn 300 phim</li>
-                                    </ul>
-                                </div>
-
-                                <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/2.png" alt="" />
-                                        <svg
-                                            width="20"
-                                            height="16"
-                                            viewBox="0 0 20 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <button class="card__add" type="button">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <h3 class="card__title card__title--subs">
-                                        <a href="details.html"
-                                            >Truyện cổ tích</a
-                                        >
-                                    </h3>
-                                    <ul class="card__list card__list--subs">
-                                        <li>Hơn 100 phim</li>
-                                    </ul>
-                                </div>
-
-                                <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/17.png" alt="" />
-                                        <svg
-                                            width="20"
-                                            height="16"
-                                            viewBox="0 0 20 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <button class="card__add" type="button">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <h3 class="card__title card__title--subs">
-                                        <a href="details.html">Phim hay nhất</a>
-                                    </h3>
-                                    <ul class="card__list card__list--subs">
-                                        <li>Hơn 300 phim</li>
-                                    </ul>
-                                </div>
-
-                                <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/13.png" alt="" />
-                                        <svg
-                                            width="20"
-                                            height="16"
-                                            viewBox="0 0 20 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <button class="card__add" type="button">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <h3 class="card__title card__title--subs">
-                                        <a href="details.html"
-                                            >Những giai điệu hay nhất</a
-                                        >
-                                    </h3>
-                                    <ul class="card__list card__list--subs">
-                                        <li>Hơn 400 phim</li>
-                                    </ul>
-                                </div>
-
-                                <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/10.png" alt="" />
-                                        <svg
-                                            width="20"
-                                            height="16"
-                                            viewBox="0 0 20 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <button class="card__add" type="button">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <h3 class="card__title card__title--subs">
-                                        <a href="details.html">Phim kinh dị</a>
-                                    </h3>
-                                    <ul class="card__list card__list--subs">
-                                        <li>Hơn 500 phim</li>
-                                    </ul>
-                                </div>
-
-                                <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/9.png" alt="" />
-                                        <svg
-                                            width="20"
-                                            height="16"
-                                            viewBox="0 0 20 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <button class="card__add" type="button">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <h3 class="card__title card__title--subs">
-                                        <a href="details.html"
-                                            >Chương trình truyền hình Nga</a
-                                        >
-                                    </h3>
-                                    <ul class="card__list card__list--subs">
-                                        <li>Hơn 300 phim</li>
-                                    </ul>
-                                </div>
-
-                                <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/14.png" alt="" />
-                                        <svg
-                                            width="20"
-                                            height="16"
-                                            viewBox="0 0 20 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <button class="card__add" type="button">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <h3 class="card__title card__title--subs">
-                                        <a href="details.html">Phim quân đội</a>
-                                    </h3>
-                                    <ul class="card__list card__list--subs">
-                                        <li>Hơn 250 phim</li>
-                                    </ul>
-                                </div>
-
-                                <div class="card">
-                                    <a href="details.html" class="card__cover">
-                                        <img src="img/card/12.png" alt="" />
-                                        <svg
-                                            width="20"
-                                            height="16"
-                                            viewBox="0 0 20 16"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                            <path
-                                                fill-rule="evenodd"
-                                                clip-rule="evenodd"
-                                                d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <button class="card__add" type="button">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path
-                                                d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <h3 class="card__title card__title--subs">
-                                        <a href="details.html"
-                                            >Các thành phố trên thế giới</a
-                                        >
-                                    </h3>
-                                    <ul class="card__list card__list--subs">
-                                        <li>Hơn 500 phim</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <button
-                                class="section__nav section__nav--cards section__nav--prev"
-                                data-nav="#subscriptions"
-                                type="button"
-                            >
-                                <svg
-                                    width="17"
-                                    height="15"
-                                    viewBox="0 0 17 15"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M1.25 7.72559L16.25 7.72559"
-                                        stroke-width="1.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                    <path
-                                        d="M7.2998 1.70124L1.2498 7.72524L7.2998 13.7502"
-                                        stroke-width="1.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                </svg>
-                            </button>
-                            <button
-                                class="section__nav section__nav--cards section__nav--next"
-                                data-nav="#subscriptions"
-                                type="button"
-                            >
-                                <svg
-                                    width="17"
-                                    height="15"
-                                    viewBox="0 0 17 15"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M15.75 7.72559L0.75 7.72559"
-                                        stroke-width="1.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                    <path
-                                        d="M9.7002 1.70124L15.7502 7.72524L9.7002 13.7502"
-                                        stroke-width="1.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end subscriptions -->
+       
 
         <!-- plan -->
         <section class="section section--pb0 section--gradient">
@@ -2401,322 +1785,6 @@
             </div>
         </section>
         <!-- end plan -->
-
-        <!-- videos -->
-        <section class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="section__title"><b>Flix</b>TV Originals</h2>
-                        <p class="section__text">
-                            Phỏng vấn người nổi tiếng, xu hướng giải trí câu
-                            chuyện và phân tích của chuyên gia.
-                        </p>
-                    </div>
-
-                    <div class="col-12">
-                        <div class="section__carousel-wrap">
-                            <div
-                                class="section__interview owl-carousel"
-                                id="flixtv"
-                            >
-                                <div class="interview">
-                                    <a
-                                        href="interview.html"
-                                        class="interview__cover"
-                                    >
-                                        <img src="img/interview/1.jpg" alt="" />
-                                        <span>
-                                            <svg
-                                                width="22"
-                                                height="22"
-                                                viewBox="0 0 22 22"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M11 1C16.5228 1 21 5.47716 21 11C21 16.5228 16.5228 21 11 21C5.47716 21 1 16.5228 1 11C1 5.47716 5.47716 1 11 1Z"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M14.0501 11.4669C13.3211 12.2529 11.3371 13.5829 10.3221 14.0099C10.1601 14.0779 9.74711 14.2219 9.65811 14.2239C9.46911 14.2299 9.28711 14.1239 9.19911 13.9539C9.16511 13.8879 9.06511 13.4569 9.03311 13.2649C8.93811 12.6809 8.88911 11.7739 8.89011 10.8619C8.88911 9.90489 8.94211 8.95489 9.04811 8.37689C9.07611 8.22089 9.15811 7.86189 9.18211 7.80389C9.22711 7.69589 9.30911 7.61089 9.40811 7.55789C9.48411 7.51689 9.57111 7.49489 9.65811 7.49789C9.74711 7.49989 10.1091 7.62689 10.2331 7.67589C11.2111 8.05589 13.2801 9.43389 14.0401 10.2439C14.1081 10.3169 14.2951 10.5129 14.3261 10.5529C14.3971 10.6429 14.4321 10.7519 14.4321 10.8619C14.4321 10.9639 14.4011 11.0679 14.3371 11.1549C14.3041 11.1999 14.1131 11.3999 14.0501 11.4669Z"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                            5:33
-                                        </span>
-                                    </a>
-                                    <h3 class="interview__title">
-                                        <a href="interview.html"
-                                            >Ben Affleck đang lên kế hoạch gì
-                                            Phim 'Người Dơi' chưa được thực hiện
-                                            của anh ấy?</a
-                                        >
-                                    </h3>
-                                </div>
-
-                                <div class="interview">
-                                    <a
-                                        href="interview.html"
-                                        class="interview__cover"
-                                    >
-                                        <img src="img/interview/2.jpg" alt="" />
-                                        <span>
-                                            <svg
-                                                width="22"
-                                                height="22"
-                                                viewBox="0 0 22 22"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M11 1C16.5228 1 21 5.47716 21 11C21 16.5228 16.5228 21 11 21C5.47716 21 1 16.5228 1 11C1 5.47716 5.47716 1 11 1Z"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M14.0501 11.4669C13.3211 12.2529 11.3371 13.5829 10.3221 14.0099C10.1601 14.0779 9.74711 14.2219 9.65811 14.2239C9.46911 14.2299 9.28711 14.1239 9.19911 13.9539C9.16511 13.8879 9.06511 13.4569 9.03311 13.2649C8.93811 12.6809 8.88911 11.7739 8.89011 10.8619C8.88911 9.90489 8.94211 8.95489 9.04811 8.37689C9.07611 8.22089 9.15811 7.86189 9.18211 7.80389C9.22711 7.69589 9.30911 7.61089 9.40811 7.55789C9.48411 7.51689 9.57111 7.49489 9.65811 7.49789C9.74711 7.49989 10.1091 7.62689 10.2331 7.67589C11.2111 8.05589 13.2801 9.43389 14.0401 10.2439C14.1081 10.3169 14.2951 10.5129 14.3261 10.5529C14.3971 10.6429 14.4321 10.7519 14.4321 10.8619C14.4321 10.9639 14.4011 11.0679 14.3371 11.1549C14.3041 11.1999 14.1131 11.3999 14.0501 11.4669Z"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                            2:41
-                                        </span>
-                                    </a>
-                                    <h3 class="interview__title">
-                                        <a href="interview.html"
-                                            >Hướng dẫn về công việc của Ryan
-                                            Murphy</a
-                                        >
-                                    </h3>
-                                </div>
-
-                                <div class="interview">
-                                    <a
-                                        href="interview.html"
-                                        class="interview__cover"
-                                    >
-                                        <img src="img/interview/3.jpg" alt="" />
-                                        <span>
-                                            <svg
-                                                width="22"
-                                                height="22"
-                                                viewBox="0 0 22 22"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M11 1C16.5228 1 21 5.47716 21 11C21 16.5228 16.5228 21 11 21C5.47716 21 1 16.5228 1 11C1 5.47716 5.47716 1 11 1Z"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M14.0501 11.4669C13.3211 12.2529 11.3371 13.5829 10.3221 14.0099C10.1601 14.0779 9.74711 14.2219 9.65811 14.2239C9.46911 14.2299 9.28711 14.1239 9.19911 13.9539C9.16511 13.8879 9.06511 13.4569 9.03311 13.2649C8.93811 12.6809 8.88911 11.7739 8.89011 10.8619C8.88911 9.90489 8.94211 8.95489 9.04811 8.37689C9.07611 8.22089 9.15811 7.86189 9.18211 7.80389C9.22711 7.69589 9.30911 7.61089 9.40811 7.55789C9.48411 7.51689 9.57111 7.49489 9.65811 7.49789C9.74711 7.49989 10.1091 7.62689 10.2331 7.67589C11.2111 8.05589 13.2801 9.43389 14.0401 10.2439C14.1081 10.3169 14.2951 10.5129 14.3261 10.5529C14.3971 10.6429 14.4321 10.7519 14.4321 10.8619C14.4321 10.9639 14.4011 11.0679 14.3371 11.1549C14.3041 11.1999 14.1131 11.3999 14.0501 11.4669Z"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                            7:19
-                                        </span>
-                                    </a>
-                                    <h3 class="interview__title">
-                                        <a href="interview.html"
-                                            >Gugu Mbatha-Raw chia sẻ phim Điều
-                                            đó mang lại cho cô ấy hy vọng</a
-                                        >
-                                    </h3>
-                                </div>
-
-                                <div class="interview">
-                                    <a
-                                        href="interview.html"
-                                        class="interview__cover"
-                                    >
-                                        <img src="img/interview/4.jpg" alt="" />
-                                        <span>
-                                            <svg
-                                                width="22"
-                                                height="22"
-                                                viewBox="0 0 22 22"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M11 1C16.5228 1 21 5.47716 21 11C21 16.5228 16.5228 21 11 21C5.47716 21 1 16.5228 1 11C1 5.47716 5.47716 1 11 1Z"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M14.0501 11.4669C13.3211 12.2529 11.3371 13.5829 10.3221 14.0099C10.1601 14.0779 9.74711 14.2219 9.65811 14.2239C9.46911 14.2299 9.28711 14.1239 9.19911 13.9539C9.16511 13.8879 9.06511 13.4569 9.03311 13.2649C8.93811 12.6809 8.88911 11.7739 8.89011 10.8619C8.88911 9.90489 8.94211 8.95489 9.04811 8.37689C9.07611 8.22089 9.15811 7.86189 9.18211 7.80389C9.22711 7.69589 9.30911 7.61089 9.40811 7.55789C9.48411 7.51689 9.57111 7.49489 9.65811 7.49789C9.74711 7.49989 10.1091 7.62689 10.2331 7.67589C11.2111 8.05589 13.2801 9.43389 14.0401 10.2439C14.1081 10.3169 14.2951 10.5129 14.3261 10.5529C14.3971 10.6429 14.4321 10.7519 14.4321 10.8619C14.4321 10.9639 14.4011 11.0679 14.3371 11.1549C14.3041 11.1999 14.1131 11.3999 14.0501 11.4669Z"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                            4:58
-                                        </span>
-                                    </a>
-                                    <h3 class="interview__title">
-                                        <a href="interview.html"
-                                            >Tốt nhất năm 2024: Xu hướng hàng
-                                            đầu Khoảnh khắc</a
-                                        >
-                                    </h3>
-                                </div>
-
-                                <div class="interview">
-                                    <a
-                                        href="interview.html"
-                                        class="interview__cover"
-                                    >
-                                        <img src="img/interview/5.jpg" alt="" />
-                                        <span>
-                                            <svg
-                                                width="22"
-                                                height="22"
-                                                viewBox="0 0 22 22"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M11 1C16.5228 1 21 5.47716 21 11C21 16.5228 16.5228 21 11 21C5.47716 21 1 16.5228 1 11C1 5.47716 5.47716 1 11 1Z"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M14.0501 11.4669C13.3211 12.2529 11.3371 13.5829 10.3221 14.0099C10.1601 14.0779 9.74711 14.2219 9.65811 14.2239C9.46911 14.2299 9.28711 14.1239 9.19911 13.9539C9.16511 13.8879 9.06511 13.4569 9.03311 13.2649C8.93811 12.6809 8.88911 11.7739 8.89011 10.8619C8.88911 9.90489 8.94211 8.95489 9.04811 8.37689C9.07611 8.22089 9.15811 7.86189 9.18211 7.80389C9.22711 7.69589 9.30911 7.61089 9.40811 7.55789C9.48411 7.51689 9.57111 7.49489 9.65811 7.49789C9.74711 7.49989 10.1091 7.62689 10.2331 7.67589C11.2111 8.05589 13.2801 9.43389 14.0401 10.2439C14.1081 10.3169 14.2951 10.5129 14.3261 10.5529C14.3971 10.6429 14.4321 10.7519 14.4321 10.8619C14.4321 10.9639 14.4011 11.0679 14.3371 11.1549C14.3041 11.1999 14.1131 11.3999 14.0501 11.4669Z"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                            3:52
-                                        </span>
-                                    </a>
-                                    <h3 class="interview__title">
-                                        <a href="interview.html"
-                                            >Phim và TV đã định hình chúng ta
-                                            như thế nào Nhận thức về HIV/AIDS</a
-                                        >
-                                    </h3>
-                                </div>
-
-                                <div class="interview">
-                                    <a
-                                        href="interview.html"
-                                        class="interview__cover"
-                                    >
-                                        <img src="img/interview/6.jpg" alt="" />
-                                        <span>
-                                            <svg
-                                                width="22"
-                                                height="22"
-                                                viewBox="0 0 22 22"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M11 1C16.5228 1 21 5.47716 21 11C21 16.5228 16.5228 21 11 21C5.47716 21 1 16.5228 1 11C1 5.47716 5.47716 1 11 1Z"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M14.0501 11.4669C13.3211 12.2529 11.3371 13.5829 10.3221 14.0099C10.1601 14.0779 9.74711 14.2219 9.65811 14.2239C9.46911 14.2299 9.28711 14.1239 9.19911 13.9539C9.16511 13.8879 9.06511 13.4569 9.03311 13.2649C8.93811 12.6809 8.88911 11.7739 8.89011 10.8619C8.88911 9.90489 8.94211 8.95489 9.04811 8.37689C9.07611 8.22089 9.15811 7.86189 9.18211 7.80389C9.22711 7.69589 9.30911 7.61089 9.40811 7.55789C9.48411 7.51689 9.57111 7.49489 9.65811 7.49789C9.74711 7.49989 10.1091 7.62689 10.2331 7.67589C11.2111 8.05589 13.2801 9.43389 14.0401 10.2439C14.1081 10.3169 14.2951 10.5129 14.3261 10.5529C14.3971 10.6429 14.4321 10.7519 14.4321 10.8619C14.4321 10.9639 14.4011 11.0679 14.3371 11.1549C14.3041 11.1999 14.1131 11.3999 14.0501 11.4669Z"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
-                                                />
-                                            </svg>
-                                            3:52
-                                        </span>
-                                    </a>
-                                    <h3 class="interview__title">
-                                        <a href="interview.html">Thần Mỹ</a>
-                                    </h3>
-                                </div>
-                            </div>
-
-                            <button
-                                class="section__nav section__nav--interview section__nav--prev"
-                                data-nav="#flixtv"
-                                type="button"
-                            >
-                                <svg
-                                    width="17"
-                                    height="15"
-                                    viewBox="0 0 17 15"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M1.25 7.72559L16.25 7.72559"
-                                        stroke-width="1.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                    <path
-                                        d="M7.2998 1.70124L1.2498 7.72524L7.2998 13.7502"
-                                        stroke-width="1.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                </svg>
-                            </button>
-                            <button
-                                class="section__nav section__nav--interview section__nav--next"
-                                data-nav="#flixtv"
-                                type="button"
-                            >
-                                <svg
-                                    width="17"
-                                    height="15"
-                                    viewBox="0 0 17 15"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M15.75 7.72559L0.75 7.72559"
-                                        stroke-width="1.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                    <path
-                                        d="M9.7002 1.70124L15.7502 7.72524L9.7002 13.7502"
-                                        stroke-width="1.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                    />
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end videos -->
 
         <!-- footer -->
 @endsection
