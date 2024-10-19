@@ -17,7 +17,7 @@ Route::get('/admin/category/add', function () {
 Route::get('/admin/slides/list', function () {
     return view('admins.slides.list');
 });
-Route::view('/', 'clients.HomePage')->name("index");
+Route::view('/', 'admins.user.update')->name("index");
 Route::view('/about', 'clients.about')->name("about");
 Route::view('/contact', 'clients.contact')->name("contact");
 Route::view('/detail', 'clients.detail')->name("detail");

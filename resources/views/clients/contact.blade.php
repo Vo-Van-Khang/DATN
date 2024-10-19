@@ -16,9 +16,10 @@
                         <a href="index.html">Trang chủ</a>
                     </li>
                     <li
-                        class="breadcrumb__item">
-                        <a href="">Về chúng tôi</a>
-                    </li>
+                    class="breadcrumb__item breadcrumb__item--active"
+                >
+                    Liên hệ
+                </li>
                 </ul>
             </div>
         </div>

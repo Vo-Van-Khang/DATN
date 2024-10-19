@@ -30,11 +30,10 @@
         <meta name="keywords" content="" />
         <meta name="author" content="Dmitry Volkov" />
         <title>
-            Đum Đúm - Đăng Nhập
+            Đum Đúm - Quên mật khẩu
         </title>
     </head>
     <body>
-        <!-- sign in -->
         <div class="sign section--full-bg" data-bg="img/bg.jpg">
             <div class="container">
                 <div class="row">
@@ -54,14 +53,6 @@
                                     />
                                 </div>
 
-                                <div class="sign__group">
-                                    <input
-                                        type="password"
-                                        class="sign__input"
-                                        placeholder="Mật khẩu"
-                                    />
-                                </div>
-
                                 <div class="sign__group sign__group--checkbox">
                                     <input
                                         id="remember"
@@ -69,22 +60,21 @@
                                         type="checkbox"
                                         checked="checked"
                                     />
-                                    <label for="remember">Nhớ tôi cho lần đăng nhập sau?</label>
+                                    <label for="remember"
+                                        >Tôi đồng ý với
+                                        <a href="privacy.html"
+                                            >Chính sách bảo mật</a
+                                        ></label
+                                    >
                                 </div>
 
                                 <button class="sign__btn" type="button">
-                                    Đăng nhập
+                                    Gửi
                                 </button>
 
                                 <span class="sign__text"
-                                    >Bạn chưa có tài khoản?
-                                    <a href="{{route("signup")}}">Đăng ký!</a></span
-                                >
-
-                                <span class="sign__text"
-                                    ><a href="{{route("forgot")}}"
-                                        >Quên mật khẩu?</a
-                                    ></span
+                                    >Chúng tôi sẽ gửi mật khẩu vào Email của
+                                    bạn</span
                                 >
                             </form>
                             <!-- end authorization form -->
@@ -93,8 +83,5 @@
                 </div>
             </div>
         </div>
-        <!-- end sign in -->
-
-        <!-- JS -->
     </body>
-</html>
+    </html>

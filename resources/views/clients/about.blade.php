@@ -13,12 +13,14 @@
             <div class="col-12 col-xl-6">
                 <ul class="breadcrumb">
                     <li class="breadcrumb__item">
-                        <a href="index.html">Trang chủ</a>
+                        <a href="/">Trang chủ</a>
                     </li>
                 
-                    <li class="breadcrumb__item">
-                        <a href="index.html">Liên hệ</a>
-                    </li>
+                    <li
+                    class="breadcrumb__item breadcrumb__item--active"
+                >
+                    Về chúng tôi
+                </li>
                 </ul>
             </div>
         </div>
